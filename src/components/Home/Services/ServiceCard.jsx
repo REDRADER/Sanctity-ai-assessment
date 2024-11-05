@@ -26,7 +26,7 @@ const ServiceCard = ({ data }) => {
                             {data.icon}
                         </span>
                         <div className='flex flex-col gap-1 ease-in-out duration-[400ms]  left-0 right-0 '>
-                            <h3 className='text-[2em] leading-[1] group-hover:text-[--background] text-[--light-text]  font-medium opacity-70 ease-in-out duration-[400ms]'>
+                            <h3 className='text-[1.8em] md:text-[2em] leading-[1] group-hover:text-[--background] text-[--light-text]  font-medium opacity-70 ease-in-out duration-[400ms]'>
                                 {data.header}
                             </h3>
                             <p className='hidden md:block max-h-0 group-hover:max-h-[500px] text-[1.2em] leading-[1] group-hover:text-[--background] text-[--light-text] font-medium opacity-40 ease-in-out duration-[400ms] overflow-hidden'>

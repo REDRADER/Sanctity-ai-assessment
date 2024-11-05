@@ -3,7 +3,7 @@ import "./globals.css";
 import ThProvider from "./ThProvider";
 import ThemeSwitcher from "./ThemeSwitcher";
 import Navbar from "@/components/Navbar/Navbar";
-
+import Lenis from "@/lib/Lenis"
 import Contact from "@/components/Home/Contact/Contact";
 
 
@@ -54,10 +54,12 @@ export default function RootLayout({ children }) {
    
       >
          <ThProvider>
+        <Lenis>
           <Navbar/>
         
         {children}
         <Contact/>
+        </Lenis>
         </ThProvider>
       </body>
     </html>

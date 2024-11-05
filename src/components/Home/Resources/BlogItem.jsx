@@ -5,7 +5,7 @@ import { ArrowUpRight } from 'lucide-react';
 
 const BlogItem = ({ data }) => {
     return (
-        <Link href={data.link} className='w-full flex flex-col gap-3 group '>
+        <Link href={data.link} className='w-full flex flex-col gap-2 md:gap-3 group '>
             <div className='w-full flex flex-col gap-2'>
                 <div className='w-full overflow-hidden rounded-[16px] relative'>
                     <Image src={data.img} alt='' width={200} height={100} className='w-full aspect-video h-[15em] scale-[1.2] group-hover:scale-[1.1] ease-in-out duration-[400ms]' quality={100} />
@@ -28,14 +28,14 @@ const BlogItem = ({ data }) => {
                     </span>
                 </div>
             </div>
-            <h3 className='overflow-hidden text-[--darkest-text] font-semibold text-[1.75em] ' style={{ display: "-webkit-box", WebkitLineClamp: "2", WebkitBoxOrient: "vertical", }}>
+            <h3 className='overflow-hidden text-[--darkest-text] font-semibold text-[1.4em] md:text-[1.75em] ' style={{ display: "-webkit-box", WebkitLineClamp: "2", WebkitBoxOrient: "vertical", }}>
                 {data.title}
             </h3>
             <div className='w-full flex flex-wrap'>
                 {
                     data.bean.map((bean) => {
                         return (
-                            <span key={`bean-${bean}`} className='p-[6px_10px] text-[--darkest-text] text rounded-[20px] bg-[#e4ece373]'>
+                            <span key={`bean-${bean}`} className='p-[6px_10px] text-[--darkest-text] text-[12px] md:text-[16px] rounded-[20px] bg-[#e4ece373]'>
                                 {bean}
 
                             </span>
