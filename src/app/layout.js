@@ -4,6 +4,8 @@ import ThProvider from "./ThProvider";
 import ThemeSwitcher from "./ThemeSwitcher";
 import Navbar from "@/components/Navbar/Navbar";
 
+import Contact from "@/components/Home/Contact/Contact";
+
 
 const dm_sans = DM_Sans({ subsets: ["latin"] });
 
@@ -55,6 +57,7 @@ export default function RootLayout({ children }) {
           <Navbar/>
         
         {children}
+        <Contact/>
         </ThProvider>
       </body>
     </html>

@@ -82,14 +82,32 @@ export const whyus=[
 
 export const blogs=[
   {
-    img:"/images/blog/startup.jpg",
+    img:"/images/blogs/startup.jpg",
     type:"Blog",
     date:"October 23, 2023",
     title:"Startup Market Sizing: Founder's Guide to TAM SAM SOM Analysis",
     bean:["Market Sizing and Forecasting"],
     link:"/"
 
-  }
+  },
+  {
+    img:"/images/blogs/steps.jpg",
+    type:"Blog",
+    date:"October 2, 2023",
+    title:"7 Simple Steps to Ace Your Startup Market Research",
+    bean:["Business Plan & Pitch Deck"],
+    link:"/"
+
+  },
+  {
+    img:"/images/blogs/research.jpg",
+    type:"Blog",
+    date:"September 27, 2023",
+    title:"Research and Planning for a New Business in 4 Steps",
+    bean:["Business Plan & Pitch Deck"],
+    link:"/"
+
+  },
 ]
 
 

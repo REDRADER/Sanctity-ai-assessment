@@ -1,3 +1,4 @@
+import Contact from "@/components/Home/Contact/Contact";
 import Hero from "@/components/Home/Hero/Hero";
 import Resources from "@/components/Home/Resources/Resources";
 import ScrollTest from "@/components/Home/scrolltest/ScrollTest";
@@ -16,6 +17,7 @@ export default function Home() {
       <Whyus/>
       <WhoTrustUs/>
       <Resources/>
+      
       {/* <ScrollTest/> */}
     </div>
   );

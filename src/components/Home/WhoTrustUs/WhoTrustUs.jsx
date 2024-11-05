@@ -22,26 +22,26 @@ const WhoTrustUs = () => {
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
               viewport={{ once: true }}
-              className='h-[15em]'>
+              className='lg:h-[15em]'>
               <WhoTrustItem img1={"/images/companies/microsoft.png"} img2={"/images/companies/nerdapp.png"} toggle={toggleLogos} inverted={true} />
             </motion.div>
             <motion.div   initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[15em]'>
+              viewport={{ once: true }} className='lg:h-[15em]'>
 
               <WhoTrustItem img1={"/images/companies/indeed.png"} img2={"/images/companies/mcLaren.png"} toggle={toggleLogos} inverted={true} />
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[15em]'>
+              viewport={{ once: true }} className='lg:h-[15em]'>
 
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[15em]'>
+              viewport={{ once: true }} className='lg:h-[15em]'>
 
               <WhoTrustItem img1={"/images/companies/upwork.png"} img2={"/images/companies/seabeck.png"} toggle={toggleLogos} inverted={true} />
             </motion.div>
@@ -51,37 +51,37 @@ const WhoTrustUs = () => {
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[15em]'>
+              viewport={{ once: true }} className='lg:h-[15em]'>
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[15em]'>
+              viewport={{ once: true }} className='lg:h-[15em]'>
               <WhoTrustItem img1={"/images/companies/fiverr.png"} img2={"/images/companies/indeed.png"} toggle={toggleLogos} inverted={false} />
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[15em]'>
+              viewport={{ once: true }} className='lg:h-[15em]'>
 
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[15em]'>
+              viewport={{ once: true }} className='lg:h-[15em]'>
 
               <WhoTrustItem img1={"/images/companies/ansell.png"} img2={"/images/companies/alpin.png"} toggle={toggleLogos} inverted={true} />
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[15em]'>
-              <WhoTrustItem img1={"/images/companies/tipalti.png"} img2={"/images/companies/nerdapp.png"} toggle={toggleLogos} inverted={false} />
+              viewport={{ once: true }} className='lg:h-[15em]'>
+              <WhoTrustItem img1={"/images/companies/Tipalti.png"} img2={"/images/companies/nerdapp.png"} toggle={toggleLogos} inverted={false} />
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[15em]'>
+              viewport={{ once: true }} className='lg:h-[15em]'>
 
               <WhoTrustItem img1={"/images/companies/seabeck.png"} img2={"/images/companies/upwork.png"} toggle={toggleLogos} inverted={true} />
             </motion.div>
