@@ -20,7 +20,7 @@ import TestimonialSlide from './TestimonialSlide';
 const TestimonialSlider = ({toggle}) => {
     return (
 
-        <div className='w-full h-[70vh] flex  justify-center items-center p-[20px] relative'>
+        <div className='w-full h-[70vh] max-h-[600px] flex  justify-center items-center p-[20px] relative'>
 
 
             <Swiper
@@ -67,7 +67,7 @@ export default TestimonialSlider
 
 const NextBtn = () => {
     return (
-        <div className=' hidden md:block  swiper-button-next w-[2em] md:w-[3em] h-[2em] md:h-[3em] rounded-[50%] overflow-hidden relative bg-[#1d221f] group translate-x-[100%] '>
+        <div className=' hidden lg:block  swiper-button-next w-[2em] md:w-[3em] h-[2em] md:h-[3em] rounded-[50%] overflow-hidden relative bg-[#1d221f] group translate-x-[100%] '>
             <div className='w-[2em] md:w-[3em] h-[2em] md:h-[3em] rounded-[50%] bg-[--darkest-text] absolute inset-0 left-[-100%] group-hover:left-[0]  duration-300 ease-in-out'>
             </div>
             <span className='w-[25px] h-[25px] absolute top-[50%] left-[50%] group-hover:left-[120%]   duration-300 ease-in-out ' style={{ transform: "translate(-50%,-50%)" }}>
@@ -81,7 +81,7 @@ const NextBtn = () => {
 }
 const PrevBtn = () => {
     return (
-        <div className=' hidden md:block swiper-button-prev w-[2em] md:w-[3em] h-[2em] md:h-[3em] rounded-[50%] overflow-hidden relative bg-[#1d221f] group translate-x-[-100%] '>
+        <div className=' hidden lg:block swiper-button-prev w-[2em] md:w-[3em] h-[2em] md:h-[3em] rounded-[50%] overflow-hidden relative bg-[#1d221f] group translate-x-[-100%] '>
             <div className='w-[2em] md:w-[3em] h-[2em] md:h-[3em] rounded-[50%] bg-[--darkest-text] absolute inset-0 left-[100%] group-hover:left-[0]  duration-300 ease-in-out'>
             </div>
             <span className='w-[25px] h-[25px] absolute top-[50%] left-[50%] group-hover:left-[-120%]   duration-300 ease-in-out ' style={{ transform: "translate(-50%,-50%)" }}>

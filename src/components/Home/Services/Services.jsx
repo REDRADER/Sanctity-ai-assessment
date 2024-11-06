@@ -76,7 +76,7 @@ const Services = () => {
 
     return (
         <section className='relative md:p-[1em_1em] z-[5] w-full' ref={SecRef} >
-            <div className='px-[1em] py-[4em] md:py-[10em] relative'>
+            <div className='px-[1em] py-[4em] md:py-[8em] relative'>
                 <div className='w-full h-full relative mx-[auto] max-w-[--max-width] flex flex-col gap-4' >
                     <div className='w-full flex flex-col justify-center lg:justify-start '>
                         <h2 className='text-[3em] lg:text-[11.5em] leading-[1] font-medium text-[--light-text] my-[0]'>

@@ -11,7 +11,7 @@ const Whyus = () => {
                 <Image src={"/images/gradient.jpg"} width={1000} height={1000} className=' max-w-none w-[100%] h-[180%] absolute top-[5em] left-[-67%]   z-0 opacity-60' alt='hero gradient' />
 
             </div>
-            <div className='p-[0.5em] md:px-[1em] py-[4em] md:py-[8em] flex flex-col gap-4 '>
+            <div className='p-[0.5em] md:px-[1em] py-[4em] lg:py-[8em] flex flex-col gap-4 '>
                 <div className='w-full  relative mx-[auto] max-w-[--max-width] grid  grid-cols-1 lg:grid-cols-2 gap-[1em] lg:gap-[0em] py-[2em] ' >
                     <div className='sticky top-[4em] opacity-70 text-[--light-text] text-[1.45em]'>
                         Why Us?

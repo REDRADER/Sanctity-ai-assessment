@@ -15,7 +15,7 @@ const Testimonials = () => {
                 <Image src={"/images/gradient.jpg"} width={1000} height={1000} className=' max-w-none w-[100%] h-[180%] absolute top-[5em] left-[-87%] rotate-[-24deg]  z-0 opacity-60' alt='hero gradient' />
 
             </div>
-            <div className='p-[0.5em] md:px-[1em] py-[4em] md:py-[10em] flex flex-col gap-4 '>
+            <div className='p-[0.5em] md:px-[1em] py-[4em] lg:py-[10em] flex flex-col gap-4 '>
                 <div className='w-full  relative mx-[auto] max-w-[--max-width] grid  grid-cols-1 lg:grid-cols-2 gap-[1em] lg:gap-[0em] py-[2em]  ' >
                     <div className='w-full flex flex-col items-start justify-center gap-5 md:gap-10 h-full'>
                         <h2 className='text-[2.8em] md:text-[4.7em] leading-[1] text-[--light] text-left font-semibold'>

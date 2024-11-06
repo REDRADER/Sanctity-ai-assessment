@@ -16,7 +16,7 @@ let formSchema = yup.object({
 
 });
 const ContactForm = () => {
-  const [initialValues, setInitailValues] = useState({ firstName: "", lastName: "", phone: "", email: "", msg: "" })
+  const [initialValues, setInitailValues] = useState({ name: "", subject: "", phone: "", email: "", msg: "" })
   const { openBackdrop, closeBackdrop, BackdropComponent } = useBackdrop();
   const formSubmit = async (values, { setSubmitting, resetForm }) => {
     openBackdrop();
@@ -41,7 +41,7 @@ const ContactForm = () => {
     <>
       <BackdropComponent />
 
-      <div className='group order-1 md:order-2 w-full h-full rounded-[24px] p-[1em] md:p-[2em] bg-[#000]/[20%] flex justify-between flex-col gap-5  ' style={{ backdropFilter: "blur(7px)", WebkitBackdropFilter: "blur(7.1px)" }}>
+      <div className='group order-1 lg:order-2 w-full h-full rounded-[24px] p-[1em] md:p-[2em] bg-[#000]/[20%] flex justify-between flex-col gap-5  ' style={{ backdropFilter: "blur(7px)", WebkitBackdropFilter: "blur(7.1px)" }}>
         <div className='flex flex-col gap-5 md:pb-[120px]'>
           <h2 className=' text-[2em] md:text-[2.6em] font-semibold text-balance text-[--light-text]' >Interested but don&apos;t know where to start?</h2>
           <Formik

@@ -46,7 +46,7 @@ const ScrubText = () => {
 
   return (
 
-    <div ref={textRef} data-text-split className='text-3xl md:text-[3.2rem] text-[--light-text] leading-[1.2] font-medium opacity-70'>
+    <div ref={textRef} data-text-split className='text-3xl md:text-4xl lg:text-[3.2rem] text-[--light-text] leading-[1.2] font-medium opacity-70'>
       At Sanctity Consulting, we
       use human creativity and the
       latest technologies to help

@@ -10,17 +10,17 @@ const Navbar = () => {
         <nav className='w-[100vw] fixed top-0 left-0 right-0 z-[100]'>
             <div className='w-full flex justify-between items-center p-[1em] md:p-[1em_2em] gap-3'>
                 <Link className='' href={"/"}>
-                    <SanctityIcon className="h-[2em] md:h-[2.5em] " />
+                    <SanctityIcon className="h-[2em]  lg:h-[2.5em] " />
                 </Link>
                 <div className='flex gap-2'>
-                    <ThemeSwitcher />
-                    <span className='group rounded-[50%] h-[3.2em] w-[3.2em] bg-[--backgound-elivated] flex flex-col justify-center items-center gap-[3px] cursor-pointer'>
+                    {/* <ThemeSwitcher /> */}
+                    <span className='group rounded-[50%] h-[2.5em] lg:h-[3.2em] w-[2.5em] lg:w-[3.2em] bg-[--backgound-elivated] flex flex-col justify-center items-center gap-[3px] cursor-pointer'>
                         <span className='h-[2px] w-[15px] bg-[--accent-green] mr-[4px] group-hover:mr-[-6px] duration-300 ease-in opacity-50' />
                         <span className='h-[2px] w-[15px] bg-[--accent-green] ml-[4px] group-hover:ml-[-6px] duration-300 ease-in opacity-50' />
 
 
                     </span>
-                    <Link href={"/contactus"} className=' flex md:hidden group bg-[--accent-green] h-[3.2em] w-[3.2em] md:w-[11em] rounded-[100px] justify-center items-center '>
+                    <Link href={"/contactus"} className=' flex md:hidden group bg-[--accent-green] h-[2.5em] lg:h-[3.2em] w-[2.5em] lg:w-[3.2em] md:w-[11em] rounded-[100px] justify-center items-center '>
                         <span  className={`h-[20px] w-[20px] rounded-[50%] text-[--background] flex justify-center items-center  `}><CreateIcon className='h-full w-full' /></span>
                     </Link>
                     <Link href={"/contactus"} className=' group hidden md:block bg-[--accent-green] h-[3.2em] w-[3.2em] md:w-[11em] rounded-[100px]  '>

@@ -11,7 +11,7 @@ const WhoTrustUs = () => {
       <div className='p-[1em]  bg-[--light-text] rounded-[24px] flex flex-col gap-4 relative '>
         <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-[1em]  '>
           <>
-            <div className='col-span-2 p-[1.4em] h-[6em] md:h-[15em] rounded-[16px] border-2 border-[#cadcc7] '>
+            <div className='col-span-2 p-[1.4em] h-[6em] md:[15em] lg:h-[15em] rounded-[16px] border-2 border-[#cadcc7] '>
 
               <h2 className='text-[--darkest-text] text-[1.4em] md:text-[2.7em] font-semibold leading-[1.1]'>
                 Who trusts us?
@@ -22,26 +22,26 @@ const WhoTrustUs = () => {
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
               viewport={{ once: true }}
-              className='h-[6em] md:h-[15em]'>
+              className='h-[6em] md:[15em] lg:h-[15em]'>
               <WhoTrustItem img1={"/images/companies/microsoft.png"} img2={"/images/companies/nerdapp.png"} toggle={toggleLogos} inverted={true} />
             </motion.div>
             <motion.div   initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[6em] md:h-[15em]'>
+              viewport={{ once: true }} className='h-[6em] md:[15em] lg:h-[15em]'>
 
               <WhoTrustItem img1={"/images/companies/indeed.png"} img2={"/images/companies/mcLaren.png"} toggle={toggleLogos} inverted={true} />
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[6em] md:h-[15em]'>
+              viewport={{ once: true }} className='h-[6em] md:[15em] lg:h-[15em]'>
 
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[6em] md:h-[15em]'>
+              viewport={{ once: true }} className='h-[6em] md:[15em] lg:h-[15em]'>
 
               <WhoTrustItem img1={"/images/companies/upwork.png"} img2={"/images/companies/seabeck.png"} toggle={toggleLogos} inverted={true} />
             </motion.div>
@@ -51,37 +51,37 @@ const WhoTrustUs = () => {
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[6em] md:h-[15em]'>
+              viewport={{ once: true }} className='h-[6em] md:[15em] lg:h-[15em]'>
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[6em] md:h-[15em]'>
+              viewport={{ once: true }} className='h-[6em] md:[15em] lg:h-[15em]'>
               <WhoTrustItem img1={"/images/companies/fiverr.png"} img2={"/images/companies/indeed.png"} toggle={toggleLogos} inverted={false} />
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[6em] md:h-[15em]'>
+              viewport={{ once: true }} className='h-[6em] md:[15em] lg:h-[15em]'>
 
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[6em] md:h-[15em]'>
+              viewport={{ once: true }} className='h-[6em] md:[15em] lg:h-[15em]'>
 
               <WhoTrustItem img1={"/images/companies/ansell.png"} img2={"/images/companies/alpin.png"} toggle={toggleLogos} inverted={true} />
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[6em] md:h-[15em]'>
+              viewport={{ once: true }} className='h-[6em] md:[15em] lg:h-[15em]'>
               <WhoTrustItem img1={"/images/companies/Tipalti.png"} img2={"/images/companies/nerdapp.png"} toggle={toggleLogos} inverted={false} />
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[6em] md:h-[15em]'>
+              viewport={{ once: true }} className='h-[6em] md:[15em] lg:h-[15em]'>
 
               <WhoTrustItem img1={"/images/companies/seabeck.png"} img2={"/images/companies/upwork.png"} toggle={toggleLogos} inverted={true} />
             </motion.div>
@@ -91,37 +91,37 @@ const WhoTrustUs = () => {
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[6em] md:h-[15em]'>
+              viewport={{ once: true }} className='h-[6em] md:[15em] lg:h-[15em]'>
               <WhoTrustItem img1={"/images/companies/imaginario.png"} img2={"/images/companies/nerdapp.png"} toggle={toggleLogos} inverted={false} />
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[6em] md:h-[15em]'>
+              viewport={{ once: true }} className='h-[6em] md:[15em] lg:h-[15em]'>
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[6em] md:h-[15em]'>
+              viewport={{ once: true }} className='h-[6em] md:[15em] lg:h-[15em]'>
 
               <WhoTrustItem img1={"/images/companies/redbull.png"} img2={"/images/companies/presidio.png"} toggle={toggleLogos} inverted={true} />
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[6em] md:h-[15em]'>
+              viewport={{ once: true }} className='h-[6em] md:[15em] lg:h-[15em]'>
 
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[6em] md:h-[15em]'>
+              viewport={{ once: true }} className='h-[6em] md:[15em] lg:h-[15em]'>
               <WhoTrustItem img1={"/images/companies/estrid.png"} img2={"/images/companies/seabeck.png"} toggle={toggleLogos} inverted={false} />
             </motion.div>
             <motion.div  initial={{ scale: 0 }}
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.3 }}
-              viewport={{ once: true }} className='h-[6em] md:h-[15em]'>
+              viewport={{ once: true }} className='h-[6em] md:[15em] lg:h-[15em]'>
 
             </motion.div>
           </>
