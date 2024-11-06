@@ -7,6 +7,11 @@ import CompetitiveIcon from '@/icons/CompetitiveIcon';
 import BussinessPlanIcon from '@/icons/BussinessPlanIcon';
 import BussinessDevIcon from '@/icons/BussinessDevIcon';
 import BusinessesAnalyzedIcon from '@/icons/BusinessesAnalyzedIcon';
+import MarketStudiedIcon from '@/icons/MarketStudiedIcon';
+import RaisedIcon from '@/icons/RaisedIcon';
+import CompletedProjectIcon from '@/icons/CompletedProjectIcon';
+import AverageCustomerIcon from '@/icons/AverageCustomerIcon';
+import ClientsIcon from '@/icons/ClientsIcon';
 
 export const services = [
   {
@@ -207,7 +212,7 @@ export const trackRecord = [
     header: "10K",
     subHeading: "Businesses analyzed",
     background: "#fff",
-    icon: <BusinessesAnalyzedIcon />,
+    icon: <BusinessesAnalyzedIcon className="lg:w-[50%] w-[90%] h-[90%] lg:h-[50%]"  />,
     type: 1
   },
   {
@@ -215,7 +220,7 @@ export const trackRecord = [
     header: "100+",
     subHeading: "Markets studied",
     background: "#97D28B",
-    icon: "",
+    icon: <MarketStudiedIcon className="lg:w-[50%] w-[90%] h-[90%] lg:h-[50%]" />,
     type: 1
   },
   {
@@ -223,7 +228,7 @@ export const trackRecord = [
     header: "$50M+",
     subHeading: "Raised",
     background: "#262D29",
-    icon: "",
+    icon: <RaisedIcon className="lg:w-[50%] w-[90%] h-[90%] lg:h-[50%]" />,
     type: 1
   },
   {
@@ -231,7 +236,7 @@ export const trackRecord = [
     header: "700+",
     subHeading: "Completed projects",
     background: "#fff",
-    icon: "",
+    icon: <CompletedProjectIcon className="lg:w-[50%] w-[90%] h-[90%] lg:h-[50%]" />,
     type: 1
   },
   {
@@ -239,7 +244,7 @@ export const trackRecord = [
     header: "500+",
     subHeading: "Clients",
     background: "#97d28b",
-    icon: "",
+    icon:<ClientsIcon className="w-[100%] h-[100%]" />,
     type: 2
   },
   {
@@ -247,7 +252,7 @@ export const trackRecord = [
     header: "4.9/5",
     subHeading: "Average customer rating",
     background: "#262D29",
-    icon: "",
+    icon: <AverageCustomerIcon className="lg:w-[50%] w-[90%] h-[90%] lg:h-[50%]" />,
     type: 1
   },
 ]

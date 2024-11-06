@@ -20,7 +20,7 @@ const TrackRecord = () => {
                 </div>
 
                 <div className='w-full  relative mx-[auto] max-w-[--max-width] grid  grid-cols-1 lg:grid-cols-3  gap-[0.9em] lg:gap-[1.2em] ' >
-                    <div className='flex flex-row lg:flex-col  gap-[0.9em] lg:gap-[1.2em]'>
+                    <div className='flex flex-row lg:flex-col  gap-[0.8em] lg:gap-[1.2em]'>
                         {
                             trackRecord.slice(0,2).map((item,index)=>{
                                
