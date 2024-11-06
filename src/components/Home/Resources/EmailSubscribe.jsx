@@ -4,7 +4,7 @@ import React from 'react'
 
 const EmailSubscribe = () => {
     return (
-        <form className='w-full grid grid-cols-1 md:grid-cols-2 gap-2'>
+        <form className='w-full grid grid-cols-1 md:grid-cols-2 gap-2 text-[1em] md:text-[1.3em]'>
 
             <input type="email" required placeholder='Email' className='w-full outline-none  border-b border-[#b5ccb4] focus:border-[--background] border-opacity-30 h-[2.5em] pl-[5px] bg-transparent text-[#333] placeholder:text-[#4d4c4c]' />
             <div>

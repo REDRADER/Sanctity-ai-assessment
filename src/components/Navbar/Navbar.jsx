@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav className='w-[100vw] fixed top-0 left-0 right-0 z-[100]'>
             <div className='w-full flex justify-between items-center p-[1em] md:p-[1em_2em] gap-3'>
                 <Link className='' href={"/"}>
-                    <SanctityIcon className="h-[2em] md:h-[3.2em] " />
+                    <SanctityIcon className="h-[2em] md:h-[2.5em] " />
                 </Link>
                 <div className='flex gap-2'>
                     <ThemeSwitcher />

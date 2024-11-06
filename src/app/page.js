@@ -3,6 +3,7 @@ import Hero from "@/components/Home/Hero/Hero";
 import Resources from "@/components/Home/Resources/Resources";
 import ScrollTest from "@/components/Home/scrolltest/ScrollTest";
 import Services from "@/components/Home/Services/Services";
+import Testimonials from "@/components/Home/Testimonials/Testimonials";
 import TrackRecord from "@/components/Home/TrackRecord/TrackRecord";
 import WhoTrustUs from "@/components/Home/WhoTrustUs/WhoTrustUs";
 import Whyus from "@/components/Home/Whyus/Whyus";
@@ -16,6 +17,7 @@ export default function Home() {
       <TrackRecord/>
       <Whyus/>
       <WhoTrustUs/>
+      <Testimonials/>
       <Resources/>
       
       {/* <ScrollTest/> */}

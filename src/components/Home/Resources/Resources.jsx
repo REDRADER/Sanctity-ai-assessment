@@ -8,8 +8,8 @@ import EmailSubscribe from './EmailSubscribe';
 const Resources = () => {
     return (
         <section className='relative p-[0.5em] md:p-[1em_1em] z-[5] w-full mb-5'  >
-            <div className='  bg-[#fff] rounded-[24px] flex flex-col gap-4 relative '>
-                <div className='w-full max-w-[--max-width] py-[2em] md:py-[5em] mx-auto flex flex-col gap-8 p-[1em]'>
+            <div className='  bg-[#fff] rounded-[24px] flex flex-col gap-4 relative p-0 md:p-[1em] '>
+                <div className='w-full max-w-[--max-width] py-[2em] md:py-[5em] mx-auto flex flex-col gap-8 p-[1em] md:p-0'>
                     <div className='flex items-center w-full justify-between'>
 
                         <h2 className='text-[--darkest-text] text-[1.6em] md:text-[4.2em] font-semibold'>

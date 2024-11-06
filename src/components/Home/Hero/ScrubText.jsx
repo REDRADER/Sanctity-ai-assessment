@@ -47,7 +47,7 @@ const ScrubText = () => {
   return (
 
     <div ref={textRef} data-text-split className='text-3xl md:text-[3.2rem] text-[--light-text] leading-[1.2] font-medium opacity-70'>
-      At Addifico Consulting, we
+      At Sanctity Consulting, we
       use human creativity and the
       latest technologies to help
       business leaders, investors,
