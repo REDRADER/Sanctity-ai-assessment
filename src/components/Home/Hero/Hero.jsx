@@ -121,7 +121,7 @@ const Hero = () => {
 
 
     return (
-        <div ref={secRef} tr-scrollflip-element="component" tr-scrollflip-staggerdirection="start" className='relative w-full overflow-x-hidden ' >
+        <div ref={secRef} tr-scrollflip-element="component" tr-scrollflip-staggerdirection="start" className='relative w-full ' >
             <section tr-scrollflip-scrubstart="top top" className='relative h-[100vh] p-[5em_1em_1em] w-full  ' id='hero' >
                 <div className=' absolute inset-0 h-full w-full  z-0  '>
                     <Image src={"/images/gradient.jpg"} width={2000} height={1000} className='max-w-none w-[140%] md:w-[90em] absolute top-[25em] md:top-[-20em] right-[-59%] md:right-[-30em] rotate-[-24deg]  md:rotate-[-0deg] z-0' alt='hero gradient' />
